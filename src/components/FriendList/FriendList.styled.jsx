@@ -34,7 +34,9 @@ const setBgColor = props => {
       case true:
           return 'green';
       case false:
-          return 'red';}
+          return 'red';
+      default: 
+            return 'black'}
   };
 
 export const Status = styled.span`
